@@ -62,6 +62,7 @@ lmutil lmstat -a -c <license-path>
 
 | Version   | Description                                                           |
 | --------- | --------------------------------------------------------------------- |
+| N/A       | Uses NLM 11.18.00 (required for 2023 products / backwards compatible  |
 | >= v1.0.1 | Uses NLM 11.16.2.0 (required for 2020 products / backwards compatible |
 | v1.0.0    | Uses NLM 11.13.1.2 (support pre-2020 products)                        |
 
@@ -69,6 +70,7 @@ lmutil lmstat -a -c <license-path>
 
 | Version   | Description                         |
 | --------- | ----------------------------------- |
+| N/A       | Uses Alma Linux 8.6 (EOL 2029)
 | >= v1.1.0 | Uses CentOS7 (EOL on June 2024)     |
 | < v1.1.0  | Uses CentOS6 (EOL on November 2020) |
 
