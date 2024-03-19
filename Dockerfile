@@ -4,7 +4,8 @@ FROM almalinux:8.6
 ##        BUILD-TIME VARIABLES        ##
 #########################################
 # url for Network Licence Manager
-ARG NLM_URL=https://download.autodesk.com/us/support/files/network_license_manager/linux/nlm11.18.0.0_ipv4_ipv6_linux64.tar.gz
+# ARG NLM_URL=https://download.autodesk.com/us/support/files/network_license_manager/linux/nlm11.18.0.0_ipv4_ipv6_linux64.tar.gz
+ARG NLM_URL=https://damassets.autodesk.net/content/dam/autodesk/www/files/linux/nlm11-19-4-1-ipv4-ipv6-linux64.tar.gz
 # path for temporary files
 ARG TEMP_PATH=/tmp/flexnetserver
 
